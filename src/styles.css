@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #003366;
+    color: white;
+  }
+  
+  .logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #FFD700;
+  }
+  
+  .profile-menu {
+    position: relative;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .profile-name {
+    margin-right: 10px;
+  }
+  
+  .arrow {
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 10px;
+    transform: rotate(45deg);
+    transition: transform 0.3s;
+  }
+  
+  .arrow.open {
+    transform: rotate(-135deg);
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    width: 150px;
+    color: #000;
+  }
+  
+  .dropdown-menu li {
+    padding: 8px 12px;
+    cursor: pointer;
+    border-bottom: 1px solid #000;
+  }
+  
+  .dropdown-menu li:hover {
+    background-color: #f4f4f4;
+  }
+  
+  .dashboard {
+    padding: 20px;
+  }
+  
+  .stats-cards {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    flex: 1;
+    text-align: center;
+  }
+  
+  .card h3 {
+    margin: 0;
+  }
+  
+  .card p {
+    font-size: 24px;
+    margin: 10px 0 0;
+  }
+  
+  .chart-container {
+    margin-top: 20px;
+  }
+  
+  .complaints {
+    padding: 20px;
+  }
+  
+  .filters {
+    margin-bottom: 20px;
+  }
+  
+  .filters label {
+    margin-right: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+  }
+  
+  table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #003366;
+    color: white;
+  }
+  
+  button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  button:nth-of-type(1) {
+    background-color: #4CAF50;
+  }
+  
+  button:nth-of-type(2) {
+    background-color: #f44336;
+  }
+  
